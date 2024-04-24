@@ -41,7 +41,7 @@ function createContent(data) {
 }
 
 
-function createLoadingCard(count) {
+function createLoadingCard() {
   let loadCard = "";
     loadCard += `   
           <div class="loading__img bg__animation"></div>
