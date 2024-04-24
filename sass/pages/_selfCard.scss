@@ -1,0 +1,41 @@
+.loading__img,.img{
+    width: 60%;
+    height: 100%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.loading__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.category,.loading__title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buy__btn{
+    width: 150px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background: blue;
+    color: $secondaryColor;
+    transition: 0.4s;
+}
+
+.buy__btn:hover{
+    background: $secondaryColor;
+    color: blue;
+}
+
