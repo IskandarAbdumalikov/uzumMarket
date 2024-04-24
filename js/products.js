@@ -25,8 +25,8 @@ function createContent(data) {
             <img src=${data.image} alt="">
           </div>
           <div class="content__info">
-            <h2>${data.title}</h2>
-            <p>${data.description}</p>
+            <h2 class="content__title">${data.title}</h2>
+            <p class="content__desc">${data.description}</p>
             <div class="category">
                 <p>Category</p>
                 <h2>${data.category}</h3>

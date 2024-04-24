@@ -130,6 +130,13 @@ body {
   display: block;
 }
 
+
+@media (max-width: 450px){
+  .tel{
+    display: none;
+  }
+}
+
 @media (max-width: 910px) {
   .header__nav__right__list {
     position: fixed;
